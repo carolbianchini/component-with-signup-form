@@ -2,8 +2,7 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Intro component with sign up form</title>
@@ -19,19 +18,15 @@
     </div>
 
     <div class="formulario">
-      <button class="titulo-form"> Try it free 7 days then $20/mo. thereafter </button>
+      <button class="titulo-form"><strong>Try free 7 days then $20/mo.</strong> thereafter</button>
      <form>
-      <input type="text" id=First-Name class="input-padrao" required>
-      <div class="form-error"><em>First Name cannot be empty</em></div>
-      <input type="text" id=Last-Name class="input-padrao" required>
-      <div class="form-error"><em>Last Name cannot be empty</em></div>
-      <input type="email" id=E-mail class="input-padrao" required>
-      <div class="form-error"><em>Looks like this is not an email</em></div>
-      <input type="password" id=password class="input-padrao" required>
-      <div class="form-error"><em>Password cannot be empty</em></div>
+      <input type="text" id=First-Name class="input-padrao" required placeholder="First Name">
+      <input type="text" id=Last-Name class="input-padrao" required placeholder="Last Name">
+      <input type="email" id=E-mail class="input-padrao" required placeholder="E-mail">  
+      <input type="password" id=password class="input-padrao" required placeholder="Password">
       <input id="formSubmit" class="btn_submit" name="submit" type="submit" value="Claim your free trial">
-      <p>
-        By clicking the button, you are agreeing to our <a>Terms and Services</a>
+      <p class="rodape-input">
+        By clicking the button, you are agreeing to our <a href="#">Terms and Services</a>
         </p>
      </form>
     </div>
@@ -40,7 +35,7 @@
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="https://github.com/carolbianchini">Ana Carolina Bianchini</a>.
     </p>
   </footer>
 </body>

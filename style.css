@@ -20,14 +20,15 @@ main {
 
 .titulo-form {
     box-sizing: border-box;
-    width: 100%;
+    width: 90%;
     margin: 1em;
     background:mediumpurple;
     color: white;
     border: none;
     border-radius: 0.5rem;
     padding: 1rem;
-    cursor: pointer;
+    box-shadow: 10px 10px 10px rgb(253, 148, 162);
+
 }
 
 form {
@@ -38,6 +39,8 @@ form {
     background: white;
     margin: 2em 1em;
     border-radius: 12px;
+    box-shadow: 10px 10px 10px rgb(253, 148, 162);
+    padding: 1rem 1.5rem;
 }
 
 input:first-of-type {
@@ -53,44 +56,27 @@ input {
     padding-left: 1rem;
     border: 1px solid gray;
     border-radius: 0.3rem;
-    
 }
 
-input:focus {
-    border: 1px solid black;
-}
-
-
-/*.conteudo-principal {
-    display: inline-block;
-	text-align: left;
-	width: 25%;
-	margin: 8em 7em;
-    font-size: 17px;
+.btn_submit {
+    background-color:rgb(32, 209, 106);
+    cursor: pointer;
+    box-shadow: 10px 10px 10px gray;
     color: white;
 }
 
-h1 {
-    font-size: 40px;
-}
-
-.titulo-form {
-    display: inline-block;
-    text-align: center;
-    vertical-align: top;
-    color: white;
+.rodape-input {
+    font-size: 11px;
+    color: gray;
     font-weight: bold;
-    margin: 3em 8em 0;
-	width: 30%;
-	padding: 15px 0;
-	font-size: 18px;
-	font-weight: bold;
-	background:mediumpurple;
-	border: none;
-	border-radius: 12px;
 }
 
-form {
-    display: inline-block;
-	margin: 100px 800px;
-}*/
+a {
+    color: rgb(238, 70, 70);
+}
+
+footer {
+    font-size: 12px;
+    font-weight: bold;
+    color: grey;
+}
